@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+
+  font-family: "Orbitron", sand-serif;
+}
+
+button {
+  font-family: "Orbitron", sand-serif;
+  font-size: 1.2em;
+  
+  height: 3em;
+  width: 8em;
+  margin: 1em .75em;
+}
+
+p {
+  font-size: 4em;
+  margin: 0;
+}
+
+#board {
+  border: 2px solid slateblue;
+  height: 100%;
+  width: 90%;
+  bottom: 1em;
+}
